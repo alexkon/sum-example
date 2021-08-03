@@ -10,7 +10,7 @@ public class SumFromArguments {
             int b = Integer.parseInt(args[1]);
             int sum = a + b;
 
-            System.out.println(String.format("Sum: %s", sum));
+            System.out.printf("Sum: %s%n", sum);
         }
     }
 }
